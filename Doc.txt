@@ -1,0 +1,9 @@
+our purpose is test our functions by only one command to know if there is an error with specific function by using "PHPUnit Manual -"
+
+Steps:-
+1-install Php unit by composer -> composer require --dev phpunit/phpunit ^9.5 .
+2-create "phpunit.xml" file then configure this file.
+3-create "tests" file .
+4-create file that name starts with the class name and  concatinated with word "Test" -> "./tests/CalculatorTest"
+5-write your test code.
+6-Run phpunit.exe by write this command "./vendor/bin/phpunit".
